@@ -180,7 +180,7 @@ export default class Collapsible extends Component {
       ];
     }
     return (
-      <Animated.View style={style} pointerEvents={collapsed ? 'none' : 'auto'}>
+      <Animated.View style={style}>
         <Animated.View
           ref={this._handleRef}
           style={[this.props.style, contentStyle]}
